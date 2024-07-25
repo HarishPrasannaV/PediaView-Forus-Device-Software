@@ -30,6 +30,8 @@ Go to the pediaview directory and run **`DISPLAY=:0 python3 main.py`**
 - There is also an extras button at the bottom left which gives access to the QR scan testing feature and test gallery.
 - Finally, there is the quit button at the bottom right.
 - The main GUI also implements popups which act as loading screen while opening other softwares.
+- <img width="480" alt="Screenshot 2024-07-25 at 3 11 45 PM" src="https://github.com/user-attachments/assets/00603ef1-888c-4661-b477-1338a093e864">
+- <img width="475" alt="Screenshot 2024-07-25 at 3 13 03 PM" src="https://github.com/user-attachments/assets/32481107-25d1-402e-874e-6210c7cfddc6">
 
 
 ## Galleries:
@@ -39,6 +41,8 @@ Go to the pediaview directory and run **`DISPLAY=:0 python3 main.py`**
 - The test gallery is for images captured in the test capture mode
 - User can cycle through the images in folder with provided arrow keys
 - The thumbnail which shows the most recently captured images in both screening and test capture mode will also open respective galleries.
+- <img width="473" alt="Screenshot 2024-07-25 at 3 14 00 PM" src="https://github.com/user-attachments/assets/ac21067b-b211-4979-8135-8e06c961012b">
+
 
 
 ## QR Testing:
@@ -47,6 +51,8 @@ Go to the pediaview directory and run **`DISPLAY=:0 python3 main.py`**
 - The QR code scanned is expected to be in JSON format and there must be a field called ‘MRN’, if there is no MRN or if the data is not in JSON from the program will throw an error.
 - Each frame is scanned for QR code and the live feed is continued until one is detected
 - If the scanned QR code is valid, then a popup with the scanned data is displayed and the user can either confirm or reject it.
+- <img width="473" alt="Screenshot 2024-07-25 at 3 21 23 PM" src="https://github.com/user-attachments/assets/ac8c639c-76eb-4b32-ba05-4b314e2744f7">
+
 
 
 ## Image Capturing:
@@ -65,6 +71,8 @@ Go to the pediaview directory and run **`DISPLAY=:0 python3 main.py`**
 - The flash function being called in a separate thread ensures that the captured frame is consistently synced with the LED flash
 - The intensity for the white LED is set as 0xBF which corresponds to 75% of the maximum intensity
 - The images along with the data is stored and the preview thumbnail is updated
+- <img width="478" alt="Screenshot 2024-07-25 at 3 12 26 PM" src="https://github.com/user-attachments/assets/c4a129f9-02a5-45dd-bc72-d929a138b943">
+
 
 
 
