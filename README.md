@@ -58,9 +58,9 @@ Go to the pediaview directory and run **`DISPLAY=:0 python3 main.py`**
 - The frames are then updated in the the thumbnail every(67ms, corresponding to 15FPS) in the GUI for live feed
 - The frame capture and displaying is handled separately to ensure smooth preview and optimize performance
 - The capture configuration for Picamera 2 with Pi HQ camera is down below:
-- - "ExposureTime": 66657
-- - "ColourGains": (1.5, 3.0), used to adjust the amount of red and blue in the image
-- - "AnalogueGain": 7.5
+  - "ExposureTime": 66657
+  - "ColourGains": (1.5, 3.0), used to adjust the amount of red and blue in the image
+  - "AnalogueGain": 7.5
 - When the capture button is triggered, first the IR image is captured and saved. And then the flash led function is called in a separate thread and the red reflex is captured.
 - The flash function being called in a separate thread ensures that the captured frame is consistently synced with the LED flash
 - The intensity for the white LED is set as 0xBF which corresponds to 75% of the maximum intensity
